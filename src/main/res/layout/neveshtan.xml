@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chi1_"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@+id/ok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:enabled="false"
+        android:text="@string/write" />
+
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tick_icon" />
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:visibility="invisible" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/link"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/uploadimage"
+                android:layout_toRightOf="@+id/uploadimage"
+                android:ems="10"
+                android:hint="@string/text"
+                android:inputType="textMultiLine"
+                android:textColor="?attr/colorPrimary" />
+
+
+            <ImageView
+                android:id="@+id/uploadimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="?attr/colorPrimary"
+                android:maxHeight="40dp"
+                android:maxWidth="40dp"
+                android:minHeight="80dp"
+                android:minWidth="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/camera_icon" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/uploadimage"
+                android:layout_marginTop="10dp"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/link" />
+
+
+            <EditText
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageButton1"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageButton1"
+                android:layout_toRightOf="@+id/imageButton1"
+                android:ems="10"
+                android:hint="@string/link"
+                android:inputType="textUri"
+                android:textColor="?attr/colorPrimary">
+
+
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/btnpicsetdel"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_above="@+id/imageButton1"
+                android:layout_alignEnd="@+id/uploadimage"
+                android:layout_alignLeft="@+id/uploadimage"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="false"
+                android:layout_alignRight="@+id/uploadimage"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/add_icon" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

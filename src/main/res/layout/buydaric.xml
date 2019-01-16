@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chi1_"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:enabled="false"
+        android:text="@string/buy_daric" />
+
+
+    <ImageButton
+        android:id="@+id/ok"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tick_icon" />
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/ok"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:visibility="invisible" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitXY"
+                android:src="@drawable/daric" />
+
+
+            <Button
+                android:id="@+id/n"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ImageButton1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_white"
+                android:text="1Da(Darik)=10000R(Rial)" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitXY"
+                android:src="@drawable/daric" />
+
+
+            <EditText
+                android:id="@+id/ndaric"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignBottom="@+id/ImageButton1"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/ImageButton1"
+                android:layout_toRightOf="@+id/ImageButton1"
+                android:ems="10"
+                android:hint="30 (Da)"
+                android:inputType="phone"
+                android:textColor="?attr/colorPrimary">
+
+                <requestFocus />
+            </EditText>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

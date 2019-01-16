@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <mobi.chichi.cropper.CropImageView
+        android:id="@+id/CropImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignRight="@+id/Button_crop"
+        android:measureAllChildren="false"
+        android:scaleType="centerCrop" />
+
+
+    <ImageButton
+        android:id="@+id/Button_cancell"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/CropImageView"
+        android:background="?attr/colorPrimary"
+        android:scaleType="centerCrop"
+        android:src="@drawable/prev_icon" />
+
+    <ImageButton
+        android:id="@+id/Button_crop"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CropImageView"
+        android:background="?attr/colorPrimary"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yes_icon" />
+
+</RelativeLayout>

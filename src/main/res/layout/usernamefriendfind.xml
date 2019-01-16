@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignEnd="@+id/progressBar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/progressBar1"
+        android:background="?attr/colorPrimary"
+        android:enabled="false"
+        android:text="@string/fusernamef" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/ok"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView2"
+        android:layout_alignLeft="@+id/progressBar1"
+        android:layout_alignStart="@+id/progressBar1"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search_icon"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/chi1_">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:gravity="fill">
+
+            <TextView
+                android:id="@+id/error1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/insertfusername"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/inputusername2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/error1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textColor="?attr/colorPrimary">
+
+                <requestFocus />
+            </EditText>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/inputusername2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_profile"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignRight="@+id/imageView2"
+                android:layout_below="@+id/imageView2"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="invisible" />
+
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignRight="@+id/imageView2"
+                android:layout_below="@+id/fname"
+                android:background="?attr/colorPrimary"
+                android:text="@string/add"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/chi1_"
+   >
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/bestwritings">
+
+</android.support.v4.view.ViewPager>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/best_writings"
+        android:id="@+id/bestwritings"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/bestpeople"
+        android:layout_toStartOf="@+id/bestpeople"
+        android:background="?attr/colorPrimary" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/best_people"
+        android:id="@+id/bestpeople"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:background="?attr/colorPrimary" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:text="New Button"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false" />
+</RelativeLayout>

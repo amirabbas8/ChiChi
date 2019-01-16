@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobi.chichi"
+    android:versionCode="20"
+    android:versionName="3.0">
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application
+        android:name=".listviewfeed.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme">
+
+
+        <activity
+            android:name=".main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".send_to_neveshtan"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".send_to"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".neveshtan"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+
+
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name="exdate"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="editprofile"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="phonelogin"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name=".realnamelogin"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name=".usernameset"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".usernamefriendfind"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".comment"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".otherprofile"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".about"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+
+        </activity>
+
+        <activity
+            android:name=".manageblock"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+
+
+        <activity
+            android:name=".feed_item"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".send_to_fchoose"
+
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".phonebookfriendfind"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+
+            />
+        <activity
+            android:name=".daric"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+            android:name=".buydaric"
+            android:configChanges="orientation|screenSize"
+
+            />
+
+
+        <activity
+            android:name=".verifydaric"
+            android:configChanges="orientation|screenSize"
+
+            >
+
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".advertise"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".advertiseplus"
+            android:configChanges="orientation|screenSize"/>
+
+        <activity
+            android:name=".advertiseedit"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+
+            android:name=".hashtag"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="chichi.mobi"
+                    android:scheme="chichihash" />
+
+            </intent-filter>
+
+
+        </activity>
+        <activity
+
+            android:name=".otherprofiletag"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="chichi.mobi"
+                    android:scheme="chichitag" />
+
+            </intent-filter>
+
+
+        </activity>
+        <activity
+            android:name=".support"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".usernamesetmainactivity"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+            android:name=".neveshtanedit"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+            android:name=".policies"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+            android:name=".neveshtan_writings"
+            android:configChanges="orientation|screenSize"
+            android:label="ChiCHi writings">
+            <intent-filter>
+
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".writings_best"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <activity
+            android:name=".mylike_writings"
+            android:configChanges="orientation|screenSize"
+
+            />
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="mobi.chichi" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="mobi.chichi.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="mobi.chichi.permission.C2D_MESSAGE" />
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+</manifest>

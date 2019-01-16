@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:enabled="false"
+        android:text="@string/Edit_information" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/chi1_">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/rname"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageButton1"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textColor="?attr/colorPrimary">
+
+                <requestFocus />
+            </EditText>
+
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignBottom="@+id/rname"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/bio"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_glyph_name" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignBottom="@+id/bio"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/bio"
+                android:layout_toLeftOf="@+id/gender"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_glyph_bio" />
+
+
+            <EditText
+                android:id="@+id/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignLeft="@+id/gender"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/rname"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/speech"
+                android:inputType="textMultiLine"
+                android:textColor="?attr/colorPrimary" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageButton2"
+                android:layout_marginTop="5dp"
+
+                android:text="@string/Private_information"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignEnd="@+id/gender"
+                android:layout_alignLeft="@+id/bio"
+                android:layout_alignRight="@+id/gender"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_whiteno"
+                android:ems="10"
+                android:text="@string/email"
+                android:textColor="?attr/colorPrimary" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignBottom="@+id/email"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/email"
+                android:layout_toLeftOf="@+id/gender"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/message_icon" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignBottom="@+id/gender"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/gender"
+                android:background="?attr/colorPrimary"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_glyph_gender" />
+
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imageButton5"
+                android:entries="@array/gender_arrays"
+                android:textColor="?attr/colorPrimary" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myScrollView"
+        android:layout_alignLeft="@+id/ok"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/ok"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tick_icon" />
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/myScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+</RelativeLayout>

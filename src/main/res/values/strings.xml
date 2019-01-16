@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChiChi</string>
+    <string name="action_settings">Settings</string>
+    <string name="version">3.0</string>
+    <string-array name="country_arrays">
+        <item>country</item>
+        <item>I.R.Iran</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item />
+        <item>Male</item>
+        <item>Femail</item>
+    </string-array>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>My Home</item>
+        <item>C Planet</item>
+        <item>Writings</item>
+        <item>My Notification</item>
+        <item>My Friends</item>
+        <item>Search</item>
+        <item>Find friend</item>
+        <item>My Settings</item>
+    </string-array>
+
+
+    <!-- Nav Drawer Menu Items -->
+
+
+    <!-- setting_drawer_items   setting_drawer_itemssetting_drawer_itemssetting_drawer_items Menu Items -->
+    <string-array name="setting_drawer_items">
+        <item>Manage Blocks</item>
+        <item>My Daric coins</item>
+        <item>Advertisement</item>
+        <item>About ChiChi</item>
+        <item>Support</item>
+        <item>Policies</item>
+        <item>logout</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="setting_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <!-- Content Description -->
+
+    <string-array name="tags_arrays">
+        <item>all</item>
+        <item>Personal</item>
+        <item>humor</item>
+        <item>educational</item>
+        <item>fun</item>
+        <item>religious</item>
+        <item>policy</item>
+        <item>events</item>
+        <item>Nature</item>
+        <item>Animals</item>
+        <item>other</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Women</item>
+        <item>Health</item>
+        <item>children</item>
+    </string-array>
+
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="about">About ChiChi</string>
+    <string name="ChiChi_Group">ChiChi Group</string>
+    <string name="gift_for_God">A gift for God</string>
+    <string name="best">Best</string>
+    <string name="post">Post</string>
+    <string name="comment">Comment</string>
+    <string name="send">Send</string>
+    <string name="Edit_information">Edit Information</string>
+    <string name="name">Name</string>
+    <string name="speech">Speech</string>
+    <string name="Private_information">Private Informations</string>
+    <string name="email">Email</string>
+    <string name="exdate">This version of ChiChi extinct. Download the new version. Thank you:-)</string>
+    <string name="download">Download</string>
+    <string name="refresh">Refresh</string>
+    <string name="manage_block">Manage Blocks</string>
+    <string name="manage_friend">Manage Friends</string>
+    <string name="write">Write</string>
+    <string name="text">Text…</string>
+    <string name="selectpic">Select Picture</string>
+    <string name="cancel">Cancel</string>
+    <string name="notification">Notification</string>
+    <string name="contactuser">My Contact Users</string>
+    <string name="insertphone">Please,Insert your Phone number.you will set us a SMS</string>
+    <string name="insertname">Congratulations:-) you are a new ChiChi member.Please insert your name.</string>
+    <string name="insertsmscode">We sent you your login Code with SMS .Please enter the received code.</string>
+    <string name="insertusername">set your username.</string>
+    <string name="smscodenotresived">Did not receive SMS? Click.</string>
+    <string name="Select_friend">Select a friend.</string>
+    <string name="Select_tag">Select a tag</string>
+    <string name="Selectfriend">Select friend</string>
+    <string name="Send_to">Send to</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Log Out</string>
+    <string name="insertfusername">Enter your friend\'s username.</string>
+    <string name="fusernamef">Find friends with username</string>
+    <string name="add">add</string>
+    <string name="errorconection">Check your Intenet connection.</string>
+    <string name="errorcomment">Write your comment</string>
+    <string name="loadmore">Load more</string>
+    <string name="errorfunblock">First unblock this person.</string>
+    <string name="errorblock">Sorry,This person has blocked you.</string>
+    <string name="succes">Successfully done.</string>
+    <string name="errorproblem">a unknown problem happened</string>
+    <string name="errorrname">Your name must be between five to twenty characters.</string>
+    <string name="errorusername">Your username must be between five to twenty characters.</string>
+    <string name="erroremail">Invalid email</string>
+    <string name="errorusernameset">Invalid username</string>
+    <string name="username">Username</string>
+    <string name="phonecontact">Phone Contacts</string>
+    <string name="makefriend">Find friends</string>
+    <string name="onback">Press once again to exit</string>
+    <string name="errorwrite">Write your post or upload an image.</string>
+    <string name="errorwrite_writings">Write your Writing.</string>
+    <string name="takecamera">Take from camera</string>
+    <string name="takegallery">Select from gallery</string>
+    <string name="completeaction">Complete action using</string>
+    <string name="uploadingfile">Uploading file…</string>
+    <string name="uploadingstart">uploading started…</string>
+    <string name="errorappcropfind">Can not find image crop app</string>
+    <string name="sourcefilenotexist">Source File not exist</string>
+    <string name="selected">Selected</string>
+    <string name="newest">The Newest</string>
+    <string name="planet">C Planet</string>
+    <string name="writings">The Writings</string>
+    <string name="blocked">Blocked</string>
+    <string name="unblocked">Unblocked</string>
+    <string name="selectcountry">Select your country</string>
+    <string name="errorphone">Enter your ten-digit phone number without the zero. example: 9012345678</string>
+    <string name="code4">code is Four-digit</string>
+    <string name="wrongcode">Code is wrong</string>
+    <string name="lockingyourself">Are you looking for yourself?</string>
+    <string name="errorfusername">This username does not exist.</string>
+    <string name="wasfriend">this person was in your friends list.</string>
+    <string name="usernamealreadytaken">This username is already taken. choose a different username</string>
+    <string name="delete">Delete</string>
+    <string name="Share">Share the text</string>
+    <string name="managepost">manage the post</string>
+    <string name="unblock">Unblock</string>
+    <string name="block">Block</string>
+    <string name="manageblockedpersin">Manage the blocked person</string>
+    <string name="managecomment">Manage your comment</string>
+    <string name="managefriend">Manage your friend</string>
+    <string name="newcomment">A new comment:</string>
+    <string name="newlike">A new like</string>
+    <string name="newtag">mentioned you.</string>
+    <string name="newfollower">A new follower</string>
+    <string name="hide">Hide</string>
+    <string name="loading">Loading…</string>
+    <string name="blockunblock">Block/Unblock</string>
+    <string name="daric">My Daric coins</string>
+    <string name="whatsdaric">The daric was a gold coin used within the Persian Empire. Cyrus the Great  introduced coins to the Persian Empire after 546 BC. Darius I  introduced a thick gold coin which he named after himself\, the daric\, which had a standard weight of 8.4 grams. The gold used in the coins was of very high quality with a purity of 95.83% and it bore the image of the Persian king or a great warrior armed with a bow and arrow. Their use ended with Alexander the Great\'s invasion in 330 BC. Upon the invasion of Persia by Alexander they were melted down and recoined as coins of Alexander. This is believed to be the main reason for their rarity in spite of their widespread usage at the time.</string>
+    <string name="onemin">Please wait a moment</string>
+    <string name="errorresivesms">A SMS sent from your phone but did not receive.Cause: The number you entered is incorrect or The problem is from your operator</string>
+    <string name="errorsendsms">SMS faild, please try again later!</string>
+    <string name="advertise">Advertisement</string>
+    <string name="advertise_plus">New Advertise</string>
+    <string name="advertise_name">Advertise name</string>
+    <string name="advertise_link">Advertise link</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="phonedaric">Insert the phone number which you paid with that</string>
+  <string name="verifydarictext">First, click on the pay.after pay click on verify transaction.
+Note verify the transaction immediately after pay, otherwise we do not know you paid
+Keep USSD code till end up paying Because its your payment document.</string>
+    <string name="pay">Pay</string>
+    <string name="verifydaric">Verify transaction</string>
+    <string name="erroradvertiseinput">Ad name and picture and link all three need to be entered</string>
+    <string name="check">Check</string>
+    <string name="checkadvertise">Is your ad send to check the content?</string>
+    <string name="wait">Please,waiting</string>
+    <string name="no_app">Program to open this link not found</string>
+    <string name="inputdaricamount">Enter the number of coins you want</string>
+    <string name="tellerror">Tell us the error code:</string>
+    <string name="logouterror">Do you want to sign out from your account?</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="errorphonenumber">The phone number is not correct</string>
+    <string name="errorinpays">Such this transaction is not in the system or has not been successful</string>
+    <string name="errorinconnect">Error in connection with the payment gateway.Try again</string>
+    <string name="delete_dialog">Are you sure to delete?</string>
+    <string name="pay_dialog">10 coins must pay.Tap on Yes.</string>
+    <string name="advertisemanage">Advertise management</string>
+    <string name="edit">Edit</string>
+    <string name="saved">Saved</string>
+    <string name="checking">Checking</string>
+    <string name="checked">Checked and accepted</string>
+    <string name="payed">Paid</string>
+    <string name="active">Active(show)</string>
+    <string name="activated">Activated</string>
+    <string name="disactive">Disactive</string>
+    <string name="deactivated">Deactivated</string>
+    <string name="rejected">Rejected</string>
+    <string name="link">Link</string>
+    <string name="report_inappropriate">Report inappropriate</string>
+    <string name="report_inappropriate_askdetails">If you would like say why you are reporting this</string>
+    <string name="report_inappropriate_saved">Thanks.Your report saved</string>
+    <string name="report_inappropriate_errorsaved">You\'ve already reported</string>
+    <string name="search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="buy_daric">Buy Daric</string>
+    <string name="support">Support</string>
+    <string name="subject">Subject</string>
+    <string name="feedback">Your feedback</string>
+    <string name="insertfeedback">Please insert your feedback.</string>
+    <string name="insertemail">Enter your e-mail.</string>
+    <string name="insertemailcode">Enter the code sent to your email.</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on  Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on  Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on  Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="policies">Policies</string>
+    <string name="policiestext">
+ChiChi Terms of Service
+Welcome to ChiChi!
+Thanks for using our products and services (“Services”). The Services are provided by ChiChi Group. (“ChiChi”), By using our Services, you are agreeing to these terms. Please read them carefully.
+Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services.
+Using our Services
+You must follow any policies made available to you within the Services.
+Don\'t misuse our Services. For example, don\'t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.
+Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don\'t remove, obscure, or alter any legal notices displayed in or along with our Services.
+Our Services display some content that is not ChiChi\'s. This content is the sole responsibility of the entity that makes it available. We may review content to determine whether it is illegal or violates our policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don\'t assume that we do.
+In connection with your use of the Services, we may send you service announcements, administrative messages, and other information. You may opt out of some of those communications.
+Some of our Services are available on mobile devices. Do not use such Services in a way that distracts you and prevents you from obeying traffic or safety laws.
+Your ChiChi Account
+You may need a ChiChi Account in order to use some of our Services. You may create your own ChiChi Account, or your ChiChi Account may be assigned to you by an administrator, such as your employer or educational institution. If you are using a ChiChi Account assigned to you by an administrator, different or additional terms may apply and your administrator may be able to access or disable your account.
+To protect your ChiChi Account, keep your password confidential. You are responsible for the activity that happens on or through your ChiChi Account. Try not to reuse your ChiChi Account password on third-party applications. If you learn of any unauthorized use of your password or ChiChi Account, follow these instructions.
+Privacy and Copyright Protection
+ChiChi\'s privacy policies explain how we treat your personal data and protect your privacy when you use our Services. By using our Services, you agree that ChiChi can use such data in accordance with our privacy policies.
+We respond to notices of alleged copyright infringement and terminate accounts of repeat infringers according to the process set out in the U.S. Digital Millennium Copyright Act.
+We provide information to help copyright holders manage their intellectual property online. If you think somebody is violating your copyrights and want to notify us, you can find information about submitting notices and ChiChi\'s policy about responding to notices in our Help Center.
+Your Content in our Services
+Some of our Services allow you to upload, submit, store, send or receive content. You retain ownership of any intellectual property rights that you hold in that content. In short, what belongs to you stays yours.
+When you upload, submit, store, send or receive content to or through our Services, you give ChiChi (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our Services), communicate, publish, publicly perform, publicly display and distribute such content. The rights you grant in this license are for the limited purpose of operating, promoting, and improving our Services, and to develop new ones. This license continues even if you stop using our Services. Some Services may offer you ways to access and remove content that has been provided to that Service. Also, in some of our Services, there are terms or settings that narrow the scope of our use of the content submitted in those Services. Make sure you have the necessary rights to grant us this license for any content that you submit to our Services.
+Our automated systems analyze your content (including emails) to provide you personally relevant product features, such as customized search results, tailored advertising, and spam and malware detection. This analysis occurs as the content is sent, received, and when it is stored.
+If you have a ChiChi Account, we may display your Profile name, Profile photo, and actions you take on ChiChi or on third-party applications connected to your ChiChi Account (such as  reviews you write and comments you post) in our Services, including displaying in ads and other commercial contexts. We will respect the choices you make to limit sharing or visibility settings in your ChiChi Account. For example, you can choose your settings so your name and photo do not appear in an ad.
+You can find more information about how ChiChi uses and stores content in the privacy policy or additional terms for particular Services. If you submit feedback or suggestions about our Services, we may use your feedback or suggestions without obligation to you.
+About Software in our Services
+When a Service requires or includes downloadable software, this software may update automatically on your device once a new version or feature is available. Some Services may let you adjust your automatic update settings.
+ChiChi gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you by ChiChi as part of the Services. This license is for the sole purpose of enabling you to use and enjoy the benefit of the Services as provided by ChiChi, in the manner permitted by these terms. You may not copy, modify, distribute, sell, or lease any part of our Services or included software, nor may you reverse engineer or attempt to extract the source code of that software, unless laws prohibit those restrictions or you have our written permission.
+Open source software is important to us. Some software used in our Services may be offered under an open source license that we will make available to you. There may be provisions in the open source license that expressly override some of these terms.
+Modifying and Terminating our Services
+We are constantly changing and improving our Services. We may add or remove functionalities or features, and we may suspend or stop a Service altogether.
+You can stop using our Services at any time, although we\'ll be sorry to see you go. ChiChi may also stop providing Services to you, or add or create new limits to our Services at any time.
+We believe that you own your data and preserving your access to such data is important. If we discontinue a Service, where reasonably possible, we will give you reasonable advance notice and a chance to get information out of that Service.
+Our Warranties and Disclaimers
+We provide our Services using a commercially reasonable level of skill and care and we hope that you will enjoy using them. But there are certain things that we don\'t promise about our Services.
+OTHER THAN AS EXPRESSLY SET OUT IN THESE TERMS OR ADDITIONAL TERMS, NEITHER CHICHI NOR ITS SUPPLIERS OR DISTRIBUTORS MAKE ANY SPECIFIC PROMISES ABOUT THE SERVICES. FOR EXAMPLE, WE DON\'T MAKE ANY COMMITMENTS ABOUT THE CONTENT WITHIN THE SERVICES, THE SPECIFIC FUNCTIONS OF THE SERVICES, OR THEIR RELIABILITY, AVAILABILITY, OR ABILITY TO MEET YOUR NEEDS. WE PROVIDE THE SERVICES “AS IS”.
+SOME JURISDICTIONS PROVIDE FOR CERTAIN WARRANTIES, LIKE THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, WE EXCLUDE ALL WARRANTIES.
+Liability for our Services
+WHEN PERMITTED BY LAW, CHICHI, AND CHICHI\'S SUPPLIERS AND DISTRIBUTORS, WILL NOT BE RESPONSIBLE FOR LOST PROFITS, REVENUES, OR DATA, FINANCIAL LOSSES OR INDIRECT, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES.
+TO THE EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF CHICHI, AND ITS SUPPLIERS AND DISTRIBUTORS, FOR ANY CLAIMS UNDER THESE TERMS, INCLUDING FOR ANY IMPLIED WARRANTIES, IS LIMITED TO THE AMOUNT YOU PAID US TO USE THE SERVICES (OR, IF WE CHOOSE, TO SUPPLYING YOU THE SERVICES AGAIN).
+IN ALL CASES, CHICHI, AND ITS SUPPLIERS AND DISTRIBUTORS, WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE THAT IS NOT REASONABLY FORESEEABLE.
+Business uses of our Services
+If you are using our Services on behalf of a business, that business accepts these terms. It will hold harmless and indemnify ChiChi and its affiliates, officers, agents, and employees from any claim, suit or action arising from or related to the use of the Services or violation of these terms, including any liability or expense arising from claims, losses, damages, suits, judgments, litigation costs and attorneys\' fees.
+About these Terms
+We may modify these terms or any additional terms that apply to a Service to, for example, reflect changes to the law or changes to our Services. You should look at the terms regularly. We\'ll post notice of modifications to these terms on this page. We\'ll post notice of modified additional terms in the applicable Service. Changes will not apply retroactively and will become effective no sooner than fourteen days after they are posted. However, changes addressing new functions for a Service or changes made for legal reasons will be effective immediately. If you do not agree to the modified terms for a Service, you should discontinue your use of that Service.
+If there is a conflict between these terms and the additional terms, the additional terms will control for that conflict.
+These terms control the relationship between ChiChi and you. They do not create any third party beneficiary rights.
+If you do not comply with these terms, and we don\'t take action right away, this doesn\'t mean that we are giving up any rights that we may have (such as taking action in the future).
+If it turns out that a particular term is not enforceable, this will not affect any other terms.
+
+
+
+
+
+
+
+
+
+Welcome to the ChiChi Privacy Policy
+When you use ChiChi services, you trust us with your information. This Privacy Policy is meant to help you understand what data we collect, why we collect it, and what we do with it. This is important; we hope you will take time to read it carefully. And remember, you can find controls to manage your information and protect your privacy and security at My Account.
+Privacy Policy
+
+Last modified: Sixteen Persian date Azar 1394
+There are many different ways you can use our services – to search for and share information, to communicate with other people or to create new content. When you share information with us, for example by creating a ChiChi Account, we can make those services even better – to show you more relevant search results and ads, to help you connect with people or to make sharing with others quicker and easier. As you use our services, we want you to be clear how we\'re using information and the ways in which you can protect your privacy.
+Our Privacy Policy explains:
+•	What information we collect and why we collect it.
+•	How we use that information.
+•	The choices we offer, including how to access and update information.
+We\'ve tried to keep it as simple as possible, but if you\'re not familiar with terms like cookies, IP addresses, pixel tags and browsers, then read about these key terms first. Your privacy matters to ChiChi so whether you are new to ChiChi or a long-time user, please do take the time to get to know our practices – and if you have any questions contact us.
+
+Information we collect
+We collect information to provide better services to all of our users – from figuring out basic stuff like which language you speak, to more complex things like which ads you\'ll find most useful, the people who matter most to you online, or which Video videos you might like.
+We collect information in the following ways:
+•	Information you give us. For example, many of our services require you to sign up for a ChiChi Account. When you do, we\'ll ask for personal information, like your name, email address, telephone number or credit card to store with your account. If you want to take full advantage of the sharing features we offer, we might also ask you to create a publicly visible ChiChi Profile, which may include your name and photo.
+•	Information we get from your use of our services. We collect information about the services that you use and how you use them, like when you watch a video on Video, visit a website that uses our advertising services, or view and interact with our ads and content. This information includes:
+o	Device information
+We collect device-specific information (such as your hardware model, operating system version, unique device identifiers, and mobile network information including phone number). ChiChi may associate your device identifiers or phone number with your ChiChi Account.
+o	Log information
+When you use our services or view content provided by ChiChi, we automatically collect and store certain information in server logs. This includes:
+?	details of how you used our service, such as your search queries.
+?	telephony log information like your phone number, calling-party number, forwarding numbers, time and date of calls, duration of calls, SMS routing information and types of calls.
+?	Internet protocol address.
+?	device event information such as crashes, system activity, hardware settings, browser type, browser language, the date and time of your request and referral URL.
+?	cookies that may uniquely identify your browser or your ChiChi Account.
+o	Location information
+When you use ChiChi services, we may collect and process information about your actual location. We use various technologies to determine location, including IP address, GPS, and other sensors that may, for example, provide ChiChi with information on nearby devices, Wi-Fi access points and cell towers.
+o	Unique application numbers
+Certain services include a unique application number. This number and information about your installation (for example, the operating system type and application version number) may be sent to ChiChi when you install or uninstall that service or when that service periodically contacts our servers, such as for automatic updates.
+o	Local storage
+We may collect and store information (including personal information) locally on your device using mechanisms such as browser web storage (including HTML 5) and application data caches.
+o	Cookies and similar technologies
+We and our partners use various technologies to collect and store information when you visit a ChiChi service, and this may include using cookies or similar technologies to identify your browser or device. We also use these technologies to collect and store information when you interact with services we offer to our partners, such as advertising services or ChiChi features that may appear on other sites. Our ChiChi Analytics product helps businesses and site owners analyze the traffic to their websites and apps. When used in conjunction with our advertising services, such as those using the DoubleClick cookie, ChiChi Analytics information is linked, by the ChiChi Analytics customer or by ChiChi, using ChiChi technology, with information about visits to multiple sites.
+Information we collect when you are signed in to ChiChi, in addition to information we obtain about you from partners, may be associated with your ChiChi Account. When information is associated with your ChiChi Account, we treat it as personal information. For more information about how you can access, manage or delete information that is associated with your ChiChi Account, visit the Transparency and choice section of this policy.
+
+How we use information we collect
+We use the information we collect from all of our services to provide, maintain, protect and improve them, to develop new ones, and to protect ChiChi and our users. We also use this information to offer you tailored content – like giving you more relevant search results and ads.
+We may use the name you provide for your ChiChi Profile across all of the services we offer that require a ChiChi Account. In addition, we may replace past names associated with your ChiChi Account so that you are represented consistently across all our services. If other users already have your email, or other information that identifies you, we may show them your publicly visible ChiChi Profile information, such as your name and photo.
+If you have a ChiChi Account, we may display your Profile name, Profile photo, and actions you take on ChiChi or on third-party applications connected to your ChiChi Account (such as  reviews you write and comments you post) in our services, including displaying in ads and other commercial contexts. We will respect the choices you make to limit sharing or visibility settings in your ChiChi Account.
+When you contact ChiChi, we keep a record of your communication to help solve any issues you might be facing. We may use your email address to inform you about our services, such as letting you know about upcoming changes or improvements.
+We use information collected from cookies and other technologies, like pixel tags, to improve your user experience and the overall quality of our services. One of the products we use to do this on our own services is ChiChi Analytics. For example, by saving your language preferences, we\'ll be able to have our services appear in the language you prefer. When showing you tailored ads, we will not associate an identifier from cookies or similar technologies with sensitive categories, such as those based on race, religion, sexual orientation or health.
+Our automated systems analyze your content (including emails) to provide you personally relevant product features, such as customized search results, tailored advertising, and spam and malware detection.
+We may combine personal information from one service with information, including personal information, from other ChiChi services – for example to make it easier to share things with people you know. We will not combine DoubleClick cookie information with personally identifiable information unless we have your opt-in consent.
+We will ask for your consent before using information for a purpose other than those that are set out in this Privacy Policy.
+ChiChi processes personal information on our servers in many countries around the world. We may process your personal information on a server located outside the country where you live.
+
+Transparency and choice
+People have different privacy concerns. Our goal is to be clear about what information we collect, so that you can make meaningful choices about how it is used. For example, you can:
+•	Review and update your ChiChi activity controls to decide what types of data, such as videos you\'ve watched on Video or past searches, you would like saved with your account when you use ChiChi services.
+•	Review and control certain types of information tied to your ChiChi Account by using ChiChi Dashboard.
+•	View and edit your preferences about the ChiChi ads shown to you on ChiChi and across the web, such as which categories might interest you, using Ads Settings. You can also opt out of certain ChiChi advertising services here.
+•	Adjust how the Profile associated with your ChiChi Account appears to others.
+•	Control who you share information with through your ChiChi Account.
+•	Take information associated with your ChiChi Account out of many of our services.
+•	Choose whether your Profile name and Profile photo appear in shared endorsements that appear in ads.
+You may also set your browser to block all cookies, including cookies associated with our services, or to indicate when a cookie is being set by us. However, it\'s important to remember that many of our services may not function properly if your cookies are disabled. For example, we may not remember your language preferences.
+
+Information you share
+Many of our services let you share information with others. Remember that when you share information publicly, it may be indexable by search engines, including ChiChi. Our services provide you with different options on sharing and removing your content.
+
+Accessing and updating your personal information
+Whenever you use our services, we aim to provide you with access to your personal information. If that information is wrong, we strive to give you ways to update it quickly or to delete it – unless we have to keep that information for legitimate business or legal purposes. When updating your personal information, we may ask you to verify your identity before we can act on your request.
+We may reject requests that are unreasonably repetitive, require disproportionate technical effort (for example, developing a new system or fundamentally changing an existing practice), risk the privacy of others, or would be extremely impractical (for instance, requests concerning information residing on backup systems).
+Where we can provide information access and correction, we will do so for free, except where it would require a disproportionate effort. We aim to maintain our services in a manner that protects information from accidental or malicious destruction. Because of this, after you delete information from our services, we may not immediately delete residual copies from our active servers and may not remove information from our backup systems.
+
+Information we share
+We do not share personal information with companies, organizations and individuals outside of ChiChi unless one of the following circumstances applies:
+•	With your consent
+We will share personal information with companies, organizations or individuals outside of ChiChi when we have your consent to do so. We require opt-in consent for the sharing of any sensitive personal information.
+•	With domain administrators
+If your ChiChi Account is managed for you by a domain administrator (for example, for ChiChi Apps users) then your domain administrator and resellers who provide user support to your organization will have access to your ChiChi Account information (including your email and other data). Your domain administrator may be able to:
+o	view statistics regarding your account, like statistics regarding applications you install.
+o	change your account password.
+o	suspend or terminate your account access.
+o	access or retain information stored as part of your account.
+o	receive your account information in order to satisfy applicable law, regulation, legal process or enforceable governmental request.
+o	restrict your ability to delete or edit information or privacy settings.
+Please refer to your domain administrator\'s privacy policy for more information.
+•	For external processing
+We provide personal information to our affiliates or other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures.
+•	For legal reasons
+We will share personal information with companies, organizations or individuals outside of ChiChi if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:
+o	meet any applicable law, regulation, legal process or enforceable governmental request.
+o	enforce applicable Terms of Service, including investigation of potential violations.
+o	detect, prevent, or otherwise address fraud, security or technical issues.
+o	protect against harm to the rights, property or safety of ChiChi, our users or the public as required or permitted by law.
+We may share non-personally identifiable information publicly and with our partners – like publishers, advertisers or connected sites. For example, we may share information publicly to show trends about the general use of our services.
+If ChiChi is involved in a merger, acquisition or asset sale, we will continue to ensure the confidentiality of any personal information and give affected users notice before personal information is transferred or becomes subject to a different privacy policy.
+
+Information security
+We work hard to protect ChiChi and our users from unauthorized access to or unauthorized alteration, disclosure or destruction of information we hold. In particular:
+•	We encrypt many of our services using SSL.
+•	We offer you two step verification when you access your ChiChi Account, and a Safe Browsing feature in ChiChi Chrome.
+•	We review our information collection, storage and processing practices, including physical security measures, to guard against unauthorized access to systems.
+•	We restrict access to personal information to ChiChi employees, contractors and agents who need to know that information in order to process it for us, and who are subject to strict contractual confidentiality obligations and may be disciplined or terminated if they fail to meet these obligations.
+
+When this Privacy Policy applies
+Our Privacy Policy applies to all of the services offered by ChiChi Inc. and its affiliates, including Video, services ChiChi provides on Android devices, and services offered on other sites (such as our advertising services), but excludes services that have separate privacy policies that do not incorporate this Privacy Policy.
+Our Privacy Policy does not apply to services offered by other companies or individuals, including products or sites that may be displayed to you in search results, sites that may include ChiChi services, or other sites linked from our services. Our Privacy Policy does not cover the information practices of other companies and organizations who advertise our services, and who may use cookies, pixel tags and other technologies to serve and offer relevant ads.
+
+Compliance and cooperation with regulatory authorities
+We regularly review our compliance with our Privacy Policy. We also adhere to several self regulatory frameworks. When we receive formal written complaints, we will contact the person who made the complaint to follow up. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of personal data that we cannot resolve with our users directly.
+
+Changes
+Our Privacy Policy may change from time to time. We will not reduce your rights under this Privacy Policy without your explicit consent. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).
+
+
+</string>
+    <string name="policiesaccept">Your use of our services means that you accept our terms and policies</string>
+    <string name="mylikes">My likes</string>
+    <string name="best_people">Best users</string>
+    <string name="best_writings">Best writings</string>
+    <string name="writings_notic">* Your Writing will be published after confirmation</string>
+    <string name="hi_def">Hi dear:-)</string>
+    <string name="hi">hi,</string>
+</resources>
